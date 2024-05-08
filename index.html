@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Final_Project_Type (3)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Final_Project_Type (4)</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14031,7 +14031,7 @@ the best</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># importing necessary libraries</span>
@@ -14050,7 +14050,7 @@ the best</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load the dataset into a DataFrame</span>
@@ -14073,7 +14073,7 @@ the best</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14465,7 +14465,7 @@ the best</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Preliminary cleaning</span>
@@ -14487,7 +14487,7 @@ the best</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Extract City, State, and ZIP Code</span>
@@ -14516,7 +14516,7 @@ the best</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_cleaned</span><span class="p">[[</span><span class="s1">&#39;CITY&#39;</span><span class="p">,</span> <span class="s1">&#39;STATE&#39;</span><span class="p">,</span> <span class="s1">&#39;ZIP&#39;</span><span class="p">]]</span> <span class="o">=</span> <span class="n">df_cleaned</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">row</span><span class="p">:</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">extract_location_info</span><span class="p">(</span><span class="n">row</span><span class="p">[</span><span class="s1">&#39;FORMATTED_ADDRESS&#39;</span><span class="p">])),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -14984,14 +14984,14 @@ the best</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Analyzing-Question-I"><strong>Analyzing Question I</strong><a class="anchor-link" href="#Analyzing-Question-I">&#182;</a></h2><p><strong>Null Hypothesis:</strong> The <strong><em>type</em></strong> has an effect on the <strong><em>price</em></strong>.</p>
+<h2 id="Analyzing-Question-I">Analyzing Question I<a class="anchor-link" href="#Analyzing-Question-I">&#182;</a></h2><p><strong>Null Hypothesis:</strong> The <strong><em>type</em></strong> has an effect on the <strong><em>price</em></strong>.</p>
 <p>We decided to utilize an ANOVA test in order to find the statisitcal significance in the variance between the means of the prices of the different categories of housing.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Filter the dataset to include only the main property types</span>
@@ -15041,19 +15041,19 @@ p-value: 0.08701901255279075
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Conclusion-for-Question-I">Conclusion for Question I<a class="anchor-link" href="#Conclusion-for-Question-I">&#182;</a></h3><p>We fail to reject this hypothesis because we can see that it is greater than our p value is greater than the alpha value.</p>
+<h3 id="Results">Results<a class="anchor-link" href="#Results">&#182;</a></h3><p>We fail to reject this hypothesis because we can see that it is greater than our p value is greater than the alpha value.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Visualizing-our-Conclusion">Visualizing our Conclusion<a class="anchor-link" href="#Visualizing-our-Conclusion">&#182;</a></h3><p>We decided to use a box &amp; whiskers plot in order to better visualize the differences in the conclusions.</p>
+<h3 id="Visualization">Visualization<a class="anchor-link" href="#Visualization">&#182;</a></h3><p>We decided to use a box &amp; whiskers plot in order to better visualize the differences in the conclusions.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Setting the aesthetic style of the plots</span>
@@ -15124,14 +15124,14 @@ p-value: 0.08701901255279075
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Analyzing-Question-II"><strong>Analyzing Question II</strong><a class="anchor-link" href="#Analyzing-Question-II">&#182;</a></h2><p><strong>Null Hypothesis:</strong> The <strong><em>location</em></strong> has an effect on the <strong><em>type</em></strong></p>
+<h2 id="Analyzing-Question-II">Analyzing Question II<a class="anchor-link" href="#Analyzing-Question-II">&#182;</a></h2><p><strong>Null Hypothesis:</strong> The <strong><em>location</em></strong> has an effect on the <strong><em>type</em></strong></p>
 <p>We can use a Chi-Square test to determine if a location in New York has an influence on the type of property that is available. This test will look at the different types of housing across various cities to see if distrubition is uniform or significantly different. We will use the city and type from the contingency.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">chi2_contingency</span>
@@ -15186,7 +15186,7 @@ p-value: 0.08701901255279075
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -15252,13 +15252,21 @@ p-value: 0.08701901255279075
 <ul>
 <li>City-Specific Property Profiles -
 The boroughs in New York and Brooklyn showcase the wide range of property types. This indicate the high-density urban nature. Other areas like Staten Island and Bronx display a higher amount of houses and multi-houses that conclude that these areas have more space and lower real-estate prices which can house larger properties</li>
+<li>Implications with Economic and Demographic factors - Developers might be able to use this data to make their projects specifically for the needs of the city's population. They could use it for example to develop more of multi-family homes to areas with growing families or develop more condos in densely populated business districts</li>
 </ul>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Analyzing-Question-III">Analyzing Question III<a class="anchor-link" href="#Analyzing-Question-III">&#182;</a></h2><p><strong>Null Hypothesis:</strong> The NYC average price is a <strong><em>large overestimate</em></strong> when compared to the U.S nation average.</p>
+<p>To test this hypothesis we can use the z-test to compare the sample mean to the mean of the population while under the assumption of the known population variance.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
@@ -15310,13 +15318,18 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>We can reject the null hypothesis because the z score is extremely high and far beyond the typical critical values for common significance levels. This indicates a very strong deviation from the null hypothesis.</p>
+<h3 id="Results">Results<a class="anchor-link" href="#Results">&#182;</a></h3><p>We can reject the null hypothesis because the z score is extremely high and far beyond the typical critical values for common significance levels. This indicates a very strong deviation from the null hypothesis. From this test we can see that the sample mean was way more that we expected for the null hypothesis. This means that the NYC housing prices are way higher than the national average especially with condos. This supports the reputation for NYC's high real estate prices.</p>
 
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Visualization">Visualization<a class="anchor-link" href="#Visualization">&#182;</a></h3>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Assume population_mean, population_std, and sample_mean are defined</span>
@@ -15372,14 +15385,22 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Understanding-our-conclusions">Understanding our conclusions<a class="anchor-link" href="#Understanding-our-conclusions">&#182;</a></h3><p>The data on which we found about NYC's condo prices exceeding national average can be further analyzed into the broader implications. These can range from economic, social and policy.</p>
+<p><strong>Economic implications</strong> - The economic implications can include things like the investor attraction and the volatility of the market. These higher average prices can attract buyers looking for higher value properties and in return for potential high returns. However this can lead to high market volatility leading it to be sensitive to market changes. It could also favor only high margin businesses and corporations over small businesses because of the high prices.</p>
+<p><strong>Social Implications</strong> - The social implications can be of housing affordability and gentrification. Since the prices are raising affordable housing for people is becoming very scarce and rare. This can lead to gentrification where neighborhoods are seen shifted into higher income households leading to changes in the community and displacement of the communities that haved stayed around for a long time. These effects can ripple to things like local schools, community resources and access to essential services. It can lead to less diverse population and lacking diversity.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
-<h1 id="Part-3:-ML-Algorithm-&amp;-Design">Part 3: ML Algorithm &amp; Design<a class="anchor-link" href="#Part-3:-ML-Algorithm-&amp;-Design">&#182;</a></h1><p>We have decided to utilize the Random Forest Regressor model. This model is robust to outliers, handles both linear and non-linear relationships well, and is easy to use in terms of interpreting the results. Random Forest can also effectively handle the multiple outputs we have in our target (PRICE, PROPERTYSQFT, BEDS, BATH), making it a good fit for predicting a best housing option.</p>
+<h1 id="Part-3:-Designing,-Training,-Testing-ML-Algorithm">Part 3: Designing, Training, Testing ML Algorithm<a class="anchor-link" href="#Part-3:-Designing,-Training,-Testing-ML-Algorithm">&#182;</a></h1><p>We have decided to utilize the Random Forest Regressor model. This model is robust to outliers, handles both linear and non-linear relationships well, and is easy to use in terms of interpreting the results. Random Forest can also effectively handle the multiple outputs we have in our target (PRICE, PROPERTYSQFT, BEDS, BATH), making it a good fit for predicting a best housing option.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">folium</span>
@@ -15398,7 +15419,7 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">features</span> <span class="o">=</span> <span class="n">df_cleaned</span><span class="p">[[</span><span class="s1">&#39;PRICE&#39;</span><span class="p">,</span> <span class="s1">&#39;BEDS&#39;</span><span class="p">,</span> <span class="s1">&#39;BATH&#39;</span><span class="p">,</span> <span class="s1">&#39;PROPERTYSQFT&#39;</span><span class="p">]]</span>
@@ -15415,7 +15436,7 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Split data</span>
@@ -15436,7 +15457,7 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Initialize and train the Random Forest Regressor</span>
@@ -15457,7 +15478,7 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15480,7 +15501,7 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">predict_best_housing</span><span class="p">(</span><span class="n">location</span><span class="p">,</span> <span class="n">price_range</span><span class="p">):</span>
@@ -15514,7 +15535,7 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">create_map</span><span class="p">(</span><span class="n">predicted_houses</span><span class="p">):</span>
@@ -15560,7 +15581,7 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">location_input</span> <span class="o">=</span> <span class="s1">&#39;New York&#39;</span>
@@ -15583,7 +15604,7 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -15809,12 +15830,18 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<hr>
+<h1 id="Part-4:-Analyzing-Results-&amp;-Error">Part 4: Analyzing Results &amp; Error<a class="anchor-link" href="#Part-4:-Analyzing-Results-&amp;-Error">&#182;</a></h1>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Visualizing-Predictions-vs.-Real-Values">Visualizing Predictions vs. Real Values<a class="anchor-link" href="#Visualizing-Predictions-vs.-Real-Values">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -15888,7 +15915,7 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span><span class="p">,</span> <span class="n">r2_score</span>
@@ -15935,6 +15962,17 @@ The boroughs in New York and Brooklyn showcase the wide range of property types.
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<hr>
+<h1 id="Part-5:-Real-Life-Implementations-&amp;-Conclusions">Part 5: Real Life Implementations &amp; Conclusions<a class="anchor-link" href="#Part-5:-Real-Life-Implementations-&amp;-Conclusions">&#182;</a></h1><h2 id="Final-Conclusions">Final Conclusions<a class="anchor-link" href="#Final-Conclusions">&#182;</a></h2><p>After completing our analysis project on the New York City housing market we were able to conclude several different insights that could form uninformed readers and those that are already informed about it. One of our insights that was contrary to our initial hypothesis was that the type of property does have a significant influence on its price. This can inform people who originally thought that all properties were around same price and depended on other things. We were also able to see that the type of properties were significantly influenced by the location withing NYC and how the NYC prices compared to the national average.</p>
+<p>\
+Our conclusions offered a very layered understanding on how different factors like property type, location, broader economic conditions can shape the housing market landscape in NYC. We saw that different property types can not only vary in price but show the diverse buyer demographics. This can help people like real estate professionals customize their strategies to meet the market demand. The geographic location of the different properties also has a big effect on the property type availiblity. This factor can help guide urban planning and strategies for development. It can help lead the way for a balanced city growth and more affordable housing. The difference between NYC pricing and national average needs to be considered to assure more affordable housing and market stability</p>
+<h2 id="Going-Forward">Going Forward<a class="anchor-link" href="#Going-Forward">&#182;</a></h2><p>The real estate market is constantly evolving and is influenced by factors such as economic trends, policy changes, and societal shifts. The future studies that can be done should incorporate many different variables that can lead to even more accurate models. The more detailed data that is used can help provide a more relavent models, especially as these models for machine learning are getting very complex and sophisticated. Our project serves as a foundation for further exploration into the world's real estate market offering a more complex framework to analyzed.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<hr>
 <h1 id="Bibliography">Bibliography<a class="anchor-link" href="#Bibliography">&#182;</a></h1><p>Dataset - <a href="https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market">https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market</a></p>
 
 </div>
